@@ -27,8 +27,11 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-      
 
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            listbox1.Items.Add(textBox1.Text);
+        }
 
 
     }
