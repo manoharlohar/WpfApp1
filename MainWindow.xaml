@@ -8,16 +8,18 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
-        <TextBox Name="TextBox" Height="30" Width="250"   
-            Text=""   
-          Margin="200,15,0,0" VerticalAlignment="Top"  
-          HorizontalAlignment="Left">
-        </TextBox>
+        <ListBox Margin="10,10,0,13" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Height="200">
+            <ListBoxItem Content="Manohar"></ListBoxItem>
+            <ListBoxItem Content="Pranit"></ListBoxItem>
+            <ListBoxItem Content="Karan"></ListBoxItem>
+           
+            
+        </ListBox>
 
-        <Button x:Name = "button" Content = "Click Me"
-         HorizontalAlignment = "Left" Margin = "480,20,0,0"
-         VerticalAlignment = "Top" Width = "75"/>
-        
-        
+        <ListBox Margin="10,10,0,3" Name="listbox1" HorizontalAlignment="Right" VerticalAlignment="Top" Width="240" Height="200">
+        </ListBox>
+
+        <Button Height="23" Margin="140,14,0,0" Name="button1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="76" Click="Button1_Click">Add Item</Button>
+
     </Grid>
 </Window>
