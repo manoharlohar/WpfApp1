@@ -7,10 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox Margin="8,80,0,3" Name="listbox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="240" Height="200"></ListBox>
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="8,14,0,0" Name="textBox1" VerticalAlignment="Top" Width="240" />
-        <Button Height="23" Margin="10,50,0,0" Name="button1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="76" Click="Button1_Click">Add Item</Button>
-        <Button Height="23" Margin="170,50,0,0" Name="button2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="76" Click="Button2_Click">delete</Button>
+        <Label Content="WELCOME TO B2A" FontSize="30" Margin="259,10,268,368"  Foreground="#FFAA0DAE"/>
+        <ListBox Margin="32,169,0,0" Name="listbox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="240" Height="200"></ListBox>
+        <TextBox  Height="23" HorizontalAlignment="Left" Margin="32,81,0,0" Name="textBox1" VerticalAlignment="Top" Width="240"    />
+        <Button Height="23" Margin="32,124,0,0" Name="button1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="76" Click="Button1_Click">Add Item</Button>
+        <Button Height="23" Margin="196,124,0,0" Name="button2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="76" Click="Button2_Click">delete</Button>
+        <Button Height="23" Margin="412,124,0,0" Name="button3" VerticalAlignment="Top" HorizontalAlignment="Left" Width="76"  Click="Button3_Click">Restore</Button>
+        <Button Height="23" Margin="576,124,0,0" Name="button4" VerticalAlignment="Top" HorizontalAlignment="Left" Width="76"  Click="Button4_Click">Flush</Button>
+        <ListBox Margin="412,169,0,0" Name="listbox2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="240" Height="200"></ListBox>
+
 
 
     </Grid>
